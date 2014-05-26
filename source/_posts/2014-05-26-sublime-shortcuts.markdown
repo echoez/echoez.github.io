@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Sublime Shortcuts"
+date: 2014-05-26 16:39:59 -0400
+comments: true
+Author: Michael Cadet
+categories: Tutorial, Sublime
+---
+
+<p>This was written for the beginner who, in anticipation of the <em>hours upon hours upon hours</em> of coding to come, want to make nice with Sublime Text 2.  Shave some time off your precious coding hours. <br>If you haven’t already, download Sublime Text 2 <a href="http://www.sublimetext.com/2">here</a>.<br><a href="http://i1283.photobucket.com/albums/a553/erin_lee1/sublimetext-title_zpsd383f3b9.gif" title="" class="fancybox" rel="gallery0"><img src="http://i1283.photobucket.com/albums/a553/erin_lee1/sublimetext-title_zpsd383f3b9.gif" width="800"></a><br>
+<a name="keyboard"><strong>Keyboard shortcuts:</strong></a><br>
+1.  <a href="#number_1">Multiple Cursors</a> : <kbd>command</kbd> + (click each selection)<br>
+2.  <a href="#number_2">Select Current Word</a> : <kbd>command</kbd> + <kbd>D</kbd><br>
+3.  <a href="#number_3">Select All Instances</a> : <kbd>command</kbd> + <kbd>control</kbd> + <kbd>G</kbd><br>
+4.  <a href="#number_4">Find Files</a> : <kbd>command</kbd> + <kbd>F</kbd><br>
+5.  <a href="#number_5">Multiple Windows</a> : <kbd>option</kbd> + <kbd>command</kbd> + <kbd>1</kbd> or <kbd>2</kbd> or however number of panels<br>
+* <a href="#bonus">BONUS</a> : A few more useful shortcuts after the jump.</p>
+
+<!-- more -->
+
+
+<p></p>
+
+<br>
+
+
+<ol>
+<li><p><span id="number_1"><strong>Multiple Cursors : <kbd>command</kbd> + (click each selection)</strong></span><br>
+Simultaneously edit different points of your text to insert characters or whatever.  It’s kinda magical.<br>
+<a href="http://farm9.staticflickr.com/8509/8481473898_5eb4e0ca65_o.jpg" title="" class="fancybox" rel="gallery0"><img src="http://farm9.staticflickr.com/8509/8481473898_5eb4e0ca65_o.jpg" width="500"></a><br><a href="#keyboard">Return to Top</a><br></p></li>
+<li><p><span id="number_2"><strong>Select Current Word : <kbd>command</kbd> + <kbd>D</kbd></strong><br>
+Select the current word.  Press <kbd>D</kbd> multiple times to select all the same words that follow.<br></span>
+<a href="http://farm9.staticflickr.com/8087/8481496822_989f9b2961_o.jpg" title="" class="fancybox" rel="gallery0"><img src="http://farm9.staticflickr.com/8087/8481496822_989f9b2961_o.jpg" width="500"></a><a href="#keyboard"><br>Return to Top</a></p></li>
+<li><p><span id="number_3"><strong>Select All Instances : <kbd>command</kbd> + <kbd>control</kbd> + <kbd>G</kbd></strong></span><br>
+Want to change the class name in your html body?  Instead of manually searching and replacing, highlight all the tags with the same name at once.<br>
+<a href="http://farm9.staticflickr.com/8388/8481510766_6e5f95e624_o.jpg" title="" class="fancybox" rel="gallery0"><img src="http://farm9.staticflickr.com/8388/8481510766_6e5f95e624_o.jpg" width="500"></a><a href="#keyboard"><br>Return to Top</a></p></li>
+<li><p><span id="number_4"><strong>Find Files : <kbd>command</kbd> + <kbd>F</kbd></strong></span><br>
+Don’t scan and scroll, search for any word within your file with the shortcut and type in what you’re looking for within the search box.<br>
+<a href="http://farm9.staticflickr.com/8247/8480438009_067ea29bf3_o.jpg" title="" class="fancybox" rel="gallery0"><img src="http://farm9.staticflickr.com/8247/8480438009_067ea29bf3_o.jpg" width="500"></a><a href="#keyboard"><br>Return to Top</a></p></li>
+<li><p><span id="number_5"><strong>Multiple Windows : <kbd>option</kbd> + <kbd>command</kbd> + <kbd>1</kbd> or <kbd>2</kbd> or however number of panels</strong></span><br>
+Keep your CSS in one window and the HTML in the other with vertical panels.  Select however number of windows you can handle.  Don’t like vertical? Press <kbd>option</kbd> + <kbd>command</kbd> + <kbd>shift</kbd> for horizontal panels.<br>
+<a href="http://farm9.staticflickr.com/8527/8481825579_cc06d8f235_o.jpg" title="" class="fancybox" rel="gallery0"><img src="http://farm9.staticflickr.com/8527/8481825579_cc06d8f235_o.jpg" width="500"></a><a href="#keyboard"><br>Return to Top</a></p></li>
+</ol>
+
+
+<br>
+
+
+<ul>
+<li><strong><span id="bonus">BONUS!</span></strong> Extra useful shortcuts for extra productivity<br>
+◉ <strong>Project Files</strong> : Keep all your files and subfolders for a project in one place by dragging and dropping the project folder into the side bar. Menu bar: PROJECT &gt; SAVE PROJECT AS.<br>
+◉ <strong>Side Bar</strong> : Show/Hide the side bar <kbd>command</kbd> + <kbd>B</kbd> + <kbd>K</kbd><br>
+◉ <strong>Search within Project</strong> : Find keywords within the entirety of the project or files <kbd>command</kbd> + <kbd>T</kbd><br>
+◉ <strong>Highlight line by line</strong> : Instead of dragging your mouse to cover several rows of lines, use the keyboard to get the job done faster <kbd>shift</kbd> + <kbd>⬆</kbd> or <kbd>⬇</kbd><br>
+◉ <strong>Highlight word by word</strong> : <kbd>shift</kbd> + <kbd>⬅</kbd> or <kbd>➡</kbd><br>
+◉ <strong>Highlight whole sections</strong> : Select larger sections starting from your blinking cursor to the very top or the very bottom of your text file <kbd>shift</kbd> + <kbd>command</kbd> + <kbd>⬆</kbd> or <kbd>⬇</kbd><br>
+◉ <strong>Highlight whole lines</strong> : Select the rest of the line starting from your blinking cursor to the start or end of the line <kbd>shift</kbd> + <kbd>command</kbd> + <kbd>⬅</kbd> or <kbd>➡</kbd><br>
+<a href="#keyboard">Return to Top</a></li>
+</ul>
+
+
+<br>
+
+
+<p><em>But Erin, I already know all these. Show me something new!</em><br>
+Alrighty then, rockstar! You’ll want to check these out:<br>
++ Shortcut Foo || <a href="https://www.shortcutfoo.com/app/tutorial/sublimetext">Sublime Text 2</a> <br>
++ WorkFunc() || <a href="http://workfunc.com/sublime-text-2-shortcuts-cheat-sheet/">Sublime Text 2 Shortcuts Cheat Sheet</a><br>
++ Bits, Blocks &amp; Pixels || <a href="http://blog.alainmeier.com/post/27255145114/some-things-beginners-might-not-know-about-sublime-text">Some things beginners might not know about Sublime Text</a><br>
++ Nettuts + || <a href="http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/">Sublime Text 2 Tips &amp; Tricks</a><br>
++ Kenneth Reitz || <a href="http://kennethreitz.org/exposures/sublime-text-2-love">Sublime Text 2 Love</a></p>
+
+<p>Credit: <br>
++ <a href="http://html-ipsum.com/">HTML Ipsum</a> for the sample code.<br>
++ <a href="http://www.vecteezy.com/members/belial90">belial90</a> for the vector <a href="http://www.vecteezy.com/technology/33151-macbook-pro-top-view-free-vector">Mac Keyboard</a></p>
+
+<p>Know of any other indispensable keyboard shortcuts?  Please share!</p>

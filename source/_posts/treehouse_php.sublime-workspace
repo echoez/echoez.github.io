@@ -1,0 +1,392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php \n\nif ($_SERVER[\"REQUEST_METHOD\"] == \"POST\") {\n$name = $_POST[\"name\"];\n    $email =  $_POST[\"email\"];\n    $email_body = \"\";\n    $email_body = $email_body . \"Name: \" . $name . \"\\n\";\n    $email_body = $email_body . \"Email: \" . $email . \"\\n\";\n    $email_body = $email_body . \"Message: \" . $message;\n\n//TODO: Send Email\n\n\n    header(\"Location: contact.php?status=thanks\");\n    exit;\n}\n?><?php \n$pageTitle = \"Contact Mike\";\n$section = \"contact\";\ninclude('inc/header.php'); ?>\n\n\n	<div class=\"section page\">\n		\n		<div class=\"wrapper\">\n		\n			<h1>Contact</h1>\n\n				<?php if (isset($_GET[\"status\"]) AND $_GET[\"status\"] == \"thanks\") { ?>\n\n					<p>thank you for your email. Ill be in contact with you shortly </p>\n\n				<?php } else { ?>\n\n					<p>I&rsquo;d love to hear from you! Complete the form to send me an email. </p>\n		\n							<form method=\"post\" action=\"contact.php\">\n								\n								<table>\n									<tr>\n										<th>\n											<label for=\"name\">Name</label> \n										</th>\n								\n										<td>\n											<input type=\"text\" name=\"name\" id=\"name\">\n										</td>\n									</tr>\n\n										<tr>\n										<th>\n											<label for=\"email\">Email</label> \n										</th>\n								\n										<td>\n											<input type=\"text\" name=\"email\" id=\"email\">\n										</td>\n									</tr>\n\n\n									<tr>\n										<th>\n											<label for=\"message\">Message</label> \n										</th>\n								\n										<td>\n											<textarea name=\"message\" id=\"message\">  </textarea>\n										</td>\n									</tr>\n								</table>\n								\n								<input type=\"submit\" value=\"Send\">\n							</form>\n					\n				<?php } ?>\n		</div>\n\n	</div>\n\n\n<?php include('inc/footer.php'); ?>",
+			"file": "/Applications/MAMP/htdocs/contact.php",
+			"file_size": 1666,
+			"file_write_time": 130450294530000000,
+			"settings":
+			{
+				"buffer_size": 1665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/contact-thanks.php",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php echo  \n\n\n\n?>",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Unix",
+				"name": "<?php echo"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/index.php",
+			"settings":
+			{
+				"buffer_size": 1045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2014-05-25-hello-world.markdown",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/contact-process.php",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Applications/MAMP/htdocs/contact.php",
+		"/Applications/MAMP/htdocs/shirts.php",
+		"/Applications/MAMP/htdocs/inc/footer.php",
+		"/Applications/MAMP/htdocs/includes/header.php",
+		"/Applications/MAMP/htdocs/code.php",
+		"/Users/shin/Dropbox/Public/sites/php_tshirtstore/index.php",
+		"/Users/shin/Dropbox/Public/sites/js_test/index.html",
+		"/Users/shin/Dropbox/Public/sites/js_test/myscript.js",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/shin/Desktop/hasaportfolio_theme.txt",
+		"/Users/shin/Dropbox/BMCC/CSC310/Queue.java",
+		"/Users/shin/Code/treebook/app/views/layouts/application.html.erb",
+		"/Users/shin/Code/treebook/public/500.html",
+		"/Users/shin/Code/treebook/public/422.html",
+		"/Users/shin/Code/treebook/public/404.html",
+		"/Users/shin/Code/treebook/test/unit/helpers/statuses_helper_test.rb",
+		"/Users/shin/Code/treebook/test/test_helper.rb",
+		"/Users/shin/Code/treebook/Gemfile"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"th",
+			"));\n",
+			"\");\n",
+			"gem",
+			"Gem",
+			"gem"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/MAMP/htdocs/contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								729,
+								729
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/contact-thanks.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								11
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php echo",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "2014-05-25-hello-world.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.534854573948,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "treehouse_php.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"htm",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"html",
+				"app/views/statuses/edit.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

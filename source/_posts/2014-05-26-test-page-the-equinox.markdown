@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Test Page - The Equinox"
+date: 2014-05-26 16:55:17 -0400
+comments: true
+categories: 
+---
+
+<p><em>This is Part 3 of Breaking Bad Series on my attempt to build a web app.<br> <a href="http://www.erinandcode.com/2013/02/26/project-part-1/">See Part 1: A Small Intro</a><br>
+<a href="http://www.erinandcode.com/2013/02/27/project-part-2/">See Part 2: The Parallax Universe</a></em><br>
+<strong>Breaking B.A.D</strong>: Break the steps. Build And Deploy.</p>
+
+<h3>Part 3: Creating a prelaunch sign-up site</h3>
+
+<p><strong>Toolbox:</strong> - Heroku - HTML5/CSS3 - Twitter Bootstrap - Ruby on Rails</p>
+
+<p><strong>Concepts:</strong> - Ruby on Rails - Deploying to Heroku - Git workflow -</p>
+
+<p><strong>Reuse, Recycle:</strong> From the previous post <a href="http://www.erinandcode.com/2013/02/27/project-part-2/">Part 2: The Parallax Universe</a> I used a smaller bit of the parallax and jQuery Easing Plugin scripts.</p>
+
+<p><a href="http://25.media.tumblr.com/0fc9023daa303558d036ecd63fd2c24e/tumblr_mjedslIPPH1qbyxr0o1_500.gif" title="" class="fancybox" rel="gallery0"><img src="http://25.media.tumblr.com/0fc9023daa303558d036ecd63fd2c24e/tumblr_mjedslIPPH1qbyxr0o1_500.gif"></a><br><em>This is how I feel when the site is finally deployed</em></p>
+
+<p><strong>The Prelaunch Signup Site:</strong> Seems like a prelaunch signup site is a prerequisite for most startups.  Get people excited about your product, have them on your mailing list, &amp; boom – you’ve got an audience on launch day.  So taking a page from the rulebook, I created my own mock prelaunch site: erinl.ee in beta.  <em>I’m</em> the product – currently being worked on while learning at the <a href="http://www.flatironschool.com">Flatiron School</a> and ready to launch after I graduate. Get it?</p>
+
+<!-- more -->
+
+<p><strong>Ruby on Rails:</strong> In order to become familiar with the territory I need to venture into the belly of the beast. I found a tutorial to get me off the ground from the RailsApp Project: <a href="http://railsapps.github.com/tutorial-rails-prelaunch-signup.html">Rails Tutorial for a Startup Prelaunch Signup Site</a>.  This was not a simple tutorial.</p>
+
+<p><strong>I’ve got 99 Problems and a Gem is One:</strong> <br>
+1. <em>Cucumber, Devise, Hominid, Oh my!</em>  The Gemfile was stuffed with exotic gems, more than I could handle; thus, methods throughout the files I’ve never seen.  But because the tutorial has you follow an application generator template called the <a href="http://railsapps.github.com/rails-composer/">Rails Composer</a> I was saved from creating most initial steps.<br><br>
+ 
+2.
+<em>Try &amp; Try &amp; Try</em> I tried the tutorial three times. And could never get past a certain point.  I git cloned the whole file and changed around the view files, working around form tags and tracing back which view belonged where. Then I broke the signup form.  There were about 5 github repos of this tutorial.<br><br>
+3.
+<em>In a Cucumber Pickle</em> Behavior Driven Development.  I had an awareness that Test Driven Development was important to software development (of which behavior driven development is based on) but had trouble when going through the steps.<br><br>
+4.
+<em>Giving the world my password</em>  A total novice (&amp; dangerous) mistake: I entered my email username, password and API key directly into the files which is open sourced on Github.  Later, I learned to use the Ruby variable <code>ENV["EMAIL_PASSWORD"]</code> to set my sensitive information in a config/application.yml file using the <a href="http://railsapps.github.com/rails-environment-variables.html">Figaro Gem</a>.<br><br>
+5.
+<em>What’s in a name?</em> After deploying to Heroku, I wanted to set the name of the application site to my custom domain.  Apparently, you can’t set a naked (ANAME) <a href="https://devcenter.heroku.com/articles/custom-domains">domain to your heroku app</a>.  Only subdomains (as in www.example.com) are allowed.  I struggled with this part a bit.  Finally, I found a way to work around the naked domain problem through this post: <a href="http://www.moncefbelyamani.com/how-to-install-and-configure-octopress-on-a-mac/">How to Install and Configure Octopress on a Mac</a>.</p>
+
+<p><strong>Simplify:</strong><br>
+Instead of going through all parts of the tutorial I took out the parts irrelevant to my learning and extra functionalities I did not need. Major parts I took out: Cucumber test-driven development and admin page with Google Visualr chart.</p>
+
+<p><strong>Pair Programming:</strong><br>
+The tutorial wasn’t always explicit in its instructions. I’d hit roadblocks after roadblocks, and after my third attempt I used my ‘phone a friend’ lifeline. My PHP developer friend guided me through the tutorial’s hairy parts, especially when I wanted to skip parts I didn’t care for or when I wanted to implement javascript scripts.</p>
+
+<p><strong>Git Workflow:</strong><br>
+A major benefit as a result of the tutorial is understanding the rhythm of the git workflow: create a feature branch, make the changes, git add &amp; commit, switch branch, squash all your commits and merge it back into the master.  Then push!</p>
+
+<br>
+
+
+<h3><a href="http://iam.erinl.ee/">Part 3’s Prelaunch Signup Site: iam.erinl.ee</a></h3>
+
