@@ -4,7 +4,7 @@
   <title><![CDATA[Mike and Code]]></title>
   <link href="http://echoez.github.io/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-26T21:05:09-04:00</updated>
+  <updated>2014-05-26T23:14:00-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Test Page - The Equinox]]></title>
-    <link href="http://echoez.github.io/blog/2014/05/26/test-page-the-equinox/"/>
-    <updated>2014-05-26T16:55:17-04:00</updated>
-    <id>http://echoez.github.io/blog/2014/05/26/test-page-the-equinox</id>
+    <title type="html"><![CDATA[Demo Page - Breaking Bad for All]]></title>
+    <link href="http://echoez.github.io/blog/2014/05/25/test-page-the-equinox/"/>
+    <updated>2014-05-25T16:55:17-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/05/25/test-page-the-equinox</id>
     <content type="html"><![CDATA[<p><em>This is Part 3 of Breaking Bad Series on my attempt to build a web app.<br> <a href="http://www.erinandcode.com/2013/02/26/project-part-1/">See Part 1: A Small Intro</a><br>
 <a href="http://www.erinandcode.com/2013/02/27/project-part-2/">See Part 2: The Parallax Universe</a></em><br>
 <strong>Breaking B.A.D</strong>: Break the steps. Build And Deploy.</p>
