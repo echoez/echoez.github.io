@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Coding, | Mike and Code]]></title>
+  <title><![CDATA[Category: Coding | Mike and Code]]></title>
   <link href="http://echoez.github.io/blog/categories/coding/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-26T23:44:47-04:00</updated>
+  <updated>2014-05-26T23:57:27-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
