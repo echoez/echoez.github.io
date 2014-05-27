@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Treehouse | Mike and Code]]></title>
+  <link href="http://echoez.github.io/blog/categories/treehouse/atom.xml" rel="self"/>
+  <link href="http://echoez.github.io/"/>
+  <updated>2014-05-26T23:44:47-04:00</updated>
+  <id>http://echoez.github.io/</id>
+  <author>
+    <name><![CDATA[Michael Cadet]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PHP is hard]]></title>
+    <link href="http://echoez.github.io/blog/2014/05/26/php-is-hard/"/>
+    <updated>2014-05-26T23:24:42-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/05/26/php-is-hard</id>
+    <content type="html"><![CDATA[<p>I have fallen off the wheels.
+Need to get back on.</p>
+
+<p>Grindin'</p>
+]]></content>
+  </entry>
+  
+</feed>
