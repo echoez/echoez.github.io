@@ -4,7 +4,7 @@
   <title><![CDATA[Mike and Code]]></title>
   <link href="http://echoez.github.io/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-26T20:53:23-04:00</updated>
+  <updated>2014-05-26T21:05:09-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
@@ -112,9 +112,9 @@ A major benefit as a result of the tutorial is understanding the rhythm of the g
   
   <entry>
     <title type="html"><![CDATA[Sublime Shortcuts]]></title>
-    <link href="http://echoez.github.io/blog/2014/05/26/sublime-shortcuts/"/>
-    <updated>2014-05-26T16:39:59-04:00</updated>
-    <id>http://echoez.github.io/blog/2014/05/26/sublime-shortcuts</id>
+    <link href="http://echoez.github.io/blog/2014/04/21/sublime-shortcuts/"/>
+    <updated>2014-04-21T16:39:59-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/04/21/sublime-shortcuts</id>
     <content type="html"><![CDATA[<p>This was written for the beginner who, in anticipation of the <em>hours upon hours upon hours</em> of coding to come, want to make nice with Sublime Text 2.  Shave some time off your precious coding hours. <br>If you haven’t already, download Sublime Text 2 <a href="http://www.sublimetext.com/2">here</a>.<br><a href="http://i1283.photobucket.com/albums/a553/erin_lee1/sublimetext-title_zpsd383f3b9.gif" title="" class="fancybox" rel="gallery0"><img src="http://i1283.photobucket.com/albums/a553/erin_lee1/sublimetext-title_zpsd383f3b9.gif" width="800"></a><br>
 <a name="keyboard"><strong>Keyboard shortcuts:</strong></a><br>
 1.  <a href="#number_1">Multiple Cursors</a> : <kbd>command</kbd> + (click each selection)<br>
