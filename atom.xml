@@ -4,7 +4,7 @@
   <title><![CDATA[Mike and Code]]></title>
   <link href="http://echoez.github.io/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-27T21:13:26-04:00</updated>
+  <updated>2014-05-28T01:40:40-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My first DB Query: Oracle]]></title>
+    <link href="http://echoez.github.io/blog/2014/05/28/my-first-db-query-oracle/"/>
+    <updated>2014-05-28T01:36:29-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/05/28/my-first-db-query-oracle</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'><figcaption><span>Oracle SQL Query Syntax</span><a href='http://j.mp/pPUUmW'>MDN Documentation </a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sql'><span class='line'><span class="k">SELECT</span> <span class="s1">&#39;Did you know Shipment (#&#39;</span><span class="o">||</span> <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span><span class="o">||</span><span class="s1">&#39;) is a &#39;</span><span class="o">||</span> <span class="n">ewt</span><span class="p">.</span><span class="n">work_type</span><span class="o">||</span> <span class="s1">&#39; work type which printed in Export Batch (#&#39;</span><span class="o">||</span> <span class="n">es</span><span class="p">.</span><span class="n">exporting_batch_id</span> <span class="o">||</span><span class="s1">&#39;). This was exported on &#39;</span><span class="o">||</span><span class="n">es</span><span class="p">.</span><span class="n">date_exported</span>
+</span><span class='line'><span class="k">FROM</span> <span class="n">exporting_shipments</span> <span class="n">es</span><span class="p">,</span> <span class="n">exporting_flags</span> <span class="n">ef</span><span class="p">,</span> <span class="n">exporting_work_type</span> <span class="n">ewt</span>
+</span><span class='line'><span class="k">WHERE</span>  <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span> <span class="o">=</span> <span class="n">ef</span><span class="p">.</span><span class="n">shipment_id</span> <span class="k">AND</span> <span class="n">ef</span><span class="p">.</span><span class="n">work_type_id</span> <span class="o">=</span> <span class="n">ewt</span><span class="p">.</span><span class="n">id</span>
+</span><span class='line'><span class="k">and</span> <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span> <span class="o">&lt;</span> <span class="mi">04339740</span> <span class="k">AND</span> <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span> <span class="o">&gt;</span> <span class="mi">04339700</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[rOtring 800+ = Must-Have]]></title>

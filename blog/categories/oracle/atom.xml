@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Oracle | Mike and Code]]></title>
+  <link href="http://echoez.github.io/blog/categories/oracle/atom.xml" rel="self"/>
+  <link href="http://echoez.github.io/"/>
+  <updated>2014-05-28T01:40:40-04:00</updated>
+  <id>http://echoez.github.io/</id>
+  <author>
+    <name><![CDATA[Michael Cadet]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My first DB Query: Oracle]]></title>
+    <link href="http://echoez.github.io/blog/2014/05/28/my-first-db-query-oracle/"/>
+    <updated>2014-05-28T01:36:29-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/05/28/my-first-db-query-oracle</id>
+    <content type="html"><![CDATA[<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Oracle SQL Query Syntax <a href="http://j.mp/pPUUmW">http://j.mp/pPUUmW</a> MDN Documentation </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='sql'><span class='line'><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">SELECT</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">Did</span> <span class="n">you</span> <span class="n">know</span> <span class="n">Shipment</span> <span class="p">(</span><span class="o">#&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">||</span> <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span><span class="o">||&amp;</span><span class="n">lsquo</span><span class="p">;)</span> <span class="k">is</span> <span class="n">a</span> <span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">||</span> <span class="n">ewt</span><span class="p">.</span><span class="n">work_type</span><span class="o">||</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span> <span class="k">work</span> <span class="k">type</span> <span class="n">which</span> <span class="n">printed</span> <span class="k">in</span> <span class="n">Export</span> <span class="n">Batch</span> <span class="p">(</span><span class="o">#&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">||</span> <span class="n">es</span><span class="p">.</span><span class="n">exporting_batch_id</span> <span class="o">||&amp;</span><span class="n">lsquo</span><span class="p">;).</span> <span class="n">This</span> <span class="n">was</span> <span class="n">exported</span> <span class="k">on</span> <span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">||</span><span class="n">es</span><span class="p">.</span><span class="n">date_exported</span>
+</span><span class='line'><span class="k">FROM</span> <span class="n">exporting_shipments</span> <span class="n">es</span><span class="p">,</span> <span class="n">exporting_flags</span> <span class="n">ef</span><span class="p">,</span> <span class="n">exporting_work_type</span> <span class="n">ewt</span>
+</span><span class='line'><span class="k">WHERE</span>  <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span> <span class="o">=</span> <span class="n">ef</span><span class="p">.</span><span class="n">shipment_id</span> <span class="k">AND</span> <span class="n">ef</span><span class="p">.</span><span class="n">work_type_id</span> <span class="o">=</span> <span class="n">ewt</span><span class="p">.</span><span class="n">id</span>
+</span><span class='line'><span class="k">and</span> <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="mi">04339740</span> <span class="k">AND</span> <span class="n">es</span><span class="p">.</span><span class="n">shipment_id</span> <span class="o">&gt;</span> <span class="mi">04339700</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>
