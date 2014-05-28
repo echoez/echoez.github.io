@@ -4,7 +4,7 @@
   <title><![CDATA[Mike and Code]]></title>
   <link href="http://echoez.github.io/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-28T01:49:20-04:00</updated>
+  <updated>2014-05-28T01:55:03-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
@@ -18,10 +18,12 @@
     <link href="http://echoez.github.io/blog/2014/05/28/my-first-db-query-oracle/"/>
     <updated>2014-05-28T01:36:29-04:00</updated>
     <id>http://echoez.github.io/blog/2014/05/28/my-first-db-query-oracle</id>
-    <content type="html"><![CDATA[<p>Created my first query of Oracle DB.
-This query pulls a set amount of shipments from three joined tables and displays certains attributes about them.</p>
+    <content type="html"><![CDATA[<p>Today i&rsquo;ve accomplished something so small yet so significant in my industry. I created my first query.
+Though i dabbled in MySQL when installing CMS for clients in the past, I never really been hands on with anything DB related.</p>
 
-<p>Concatenating select columns in oracle is done by using &lsquo;||&rsquo; and aliasing was done with shorthand nicks (es)</p>
+<p>This query ive made in oracle pulls a set amount of shipments from three joined tables and displays them in a neat concatenated statement.</p>
+
+<p>In absence of INNER JOIN, i used aliases as attributes to columns to join them.</p>
 
 <figure class='code'><figcaption><span>Oracle SQL </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
