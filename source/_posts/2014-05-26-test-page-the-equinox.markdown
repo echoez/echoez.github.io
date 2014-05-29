@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Test Page - The Equinox"
-date: 2014-05-26 16:55:17 -0400
+title: "Demo Page - Breaking Bad for All"
+date: 2014-05-25 16:55:17 -0400
 comments: true
-categories: 
+categories: [New, Coding, Demopage]
 ---
 
 <p><em>This is Part 3 of Breaking Bad Series on my attempt to build a web app.<br> <a href="http://www.erinandcode.com/2013/02/26/project-part-1/">See Part 1: A Small Intro</a><br>

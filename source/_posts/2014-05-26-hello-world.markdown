@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 date: 2014-03-07 14:43:02 -0400
 comments: true
-categories: New
+categories: [New, Tutorial]
 ---
 
 Documentation Process: Phase 1

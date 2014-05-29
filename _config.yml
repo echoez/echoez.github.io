@@ -5,7 +5,7 @@
 url: http://echoez.github.io
 title: Mike and Code
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Michael Cadet
 simple_search: https://www.google.com/search
 description:
 
@@ -41,7 +41,7 @@ rdiscount:
     - smart
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 5          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
@@ -69,7 +69,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: echoez
+twitter_user: mikespire
 twitter_tweet_button: true
 
 # Google +1
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: octopressgitmike
 disqus_show_comment_count: false
 
 # Google Analytics

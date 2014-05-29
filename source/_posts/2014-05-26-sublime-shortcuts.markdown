@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Sublime Shortcuts"
-date: 2014-05-26 16:39:59 -0400
+date: 2014-04-21 16:39:59 -0400
 comments: true
 Author: Michael Cadet
-categories: Tutorial, Sublime
+categories: [Tutorial, Sublime]
 ---
 
 <p>This was written for the beginner who, in anticipation of the <em>hours upon hours upon hours</em> of coding to come, want to make nice with Sublime Text 2.  Shave some time off your precious coding hours. <br>If you haven’t already, download Sublime Text 2 <a href="http://www.sublimetext.com/2">here</a>.<br><a href="http://i1283.photobucket.com/albums/a553/erin_lee1/sublimetext-title_zpsd383f3b9.gif" title="" class="fancybox" rel="gallery0"><img src="http://i1283.photobucket.com/albums/a553/erin_lee1/sublimetext-title_zpsd383f3b9.gif" width="800"></a><br>
