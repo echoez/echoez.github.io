@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Excel | Mike and Code]]></title>
+  <link href="http://echoez.github.io/blog/categories/excel/atom.xml" rel="self"/>
+  <link href="http://echoez.github.io/"/>
+  <updated>2014-05-28T20:34:22-04:00</updated>
+  <id>http://echoez.github.io/</id>
+  <author>
+    <name><![CDATA[Michael Cadet]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Excel Shortcut #001]]></title>
+    <link href="http://echoez.github.io/blog/2014/05/28/excel-shortcut-number-001/"/>
+    <updated>2014-05-28T20:24:32-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/05/28/excel-shortcut-number-001</id>
+    <content type="html"><![CDATA[<p>A problem i usually run into when using excel is adding multiple values on the numpad and having to type [kbd]=[/kbd] on the keyboard.  Kinda killing the flow.</p>
+
+<p>Did you know there&rsquo;s a numpad shortcut that allows you to keep your hand on the numpad completely when entering a values into a column instead of having.</p>
+
+<p>The secret is the [kbd]+[/kbd] key</p>
+
+<p>Instead of typing this to parse arithmetic in excel
+<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>=5+6+7+1+4+2 [kbd]enter[/kbd]</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>This also works:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>+5+6+7+1+4+2 [kbd]enter[/kbd]</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Allowing you to keep you hand in the numpad the whole time</p>
+]]></content>
+  </entry>
+  
+</feed>
