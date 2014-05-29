@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Excel | Mike and Code]]></title>
   <link href="http://echoez.github.io/blog/categories/excel/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-29T00:40:16-04:00</updated>
+  <updated>2014-05-29T00:47:10-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
@@ -26,9 +26,9 @@
 
 <p>Instead of typing this to parse arithmetic in excel
 <code>
-=5+6+7+1+4+2 </code> <kbd>enter</kbd></p>
+=5+6+7+1+4+2 </code> + hitting <kbd>return</kbd></p>
 
-<p>This also works:</p>
+<p>This works way faster:</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>+5+6+7+1+4+2 &lt;kbd>enter&lt;/kbd></span></code></pre></td></tr></table></div></figure></notextile></div></p>
