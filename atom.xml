@@ -4,7 +4,7 @@
   <title><![CDATA[Mike and Code]]></title>
   <link href="http://echoez.github.io/atom.xml" rel="self"/>
   <link href="http://echoez.github.io/"/>
-  <updated>2014-05-29T01:06:51-04:00</updated>
+  <updated>2014-06-01T13:46:03-04:00</updated>
   <id>http://echoez.github.io/</id>
   <author>
     <name><![CDATA[Michael Cadet]]></name>
@@ -12,6 +12,160 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How to make a Parallax Website]]></title>
+    <link href="http://echoez.github.io/blog/2014/06/01/parallax-test-site/"/>
+    <updated>2014-06-01T13:37:50-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/06/01/parallax-test-site</id>
+    <content type="html"><![CDATA[<p>Last night I created a quick parallax website using <a href="https://www.youtube.com/watch?v=HeUZngrgR6A">this</a> tutorial I found online. All you need is about 1 hour, a little patience and basic knowledge off HTML5 and SASS.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git is completed]]></title>
+    <link href="http://echoez.github.io/blog/2014/05/31/git-is-completed/"/>
+    <updated>2014-05-31T12:00:08-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/05/31/git-is-completed</id>
+    <content type="html"><![CDATA[
+
+<figure class='code'><figcaption><span>git</span><a href='https://try.github.io/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+<span class='line-number'>67</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Press enter to submit commands
+</span><span class='line'> 
+</span><span class='line'>> git init
+</span><span class='line'> 
+</span><span class='line'>
+</span><span class='line'>Initialized empty Git repository in /.git/
+</span><span class='line'>
+</span><span class='line'>Success!
+</span><span class='line'>
+</span><span class='line'>$ git status
+</span><span class='line'> 
+</span><span class='line'>
+</span><span class='line'># On branch master
+</span><span class='line'>#
+</span><span class='line'># Initial commit
+</span><span class='line'>#
+</span><span class='line'>nothing to commit (create/copy files and use "git add" to track)
+</span><span class='line'>
+</span><span class='line'>Success!
+</span><span class='line'>
+</span><span class='line'>$ git status
+</span><span class='line'> 
+</span><span class='line'>
+</span><span class='line'># On branch master
+</span><span class='line'>#
+</span><span class='line'># Initial commit
+</span><span class='line'>#
+</span><span class='line'># Untracked files:
+</span><span class='line'>#   (use "git add &lt;file>..." to include in what will be committed)
+</span><span class='line'>#
+</span><span class='line'># octocat.txt
+</span><span class='line'>nothing added to commit but untracked files present (use "git add" to track)
+</span><span class='line'>
+</span><span class='line'>Success!
+</span><span class='line'>
+</span><span class='line'>$ git add octocat.txt
+</span><span class='line'> 
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>Nice job, you've added octocat.txt to the Staging Area
+</span><span class='line'>
+</span><span class='line'>$ git status
+</span><span class='line'> 
+</span><span class='line'>
+</span><span class='line'># On branch master
+</span><span class='line'>#
+</span><span class='line'># Initial commit
+</span><span class='line'>#
+</span><span class='line'># Changes to be committed:
+</span><span class='line'>#   (use "git rm --cached &lt;file>..." to unstage)
+</span><span class='line'>#
+</span><span class='line'># new file:   octocat.txt
+</span><span class='line'>#
+</span><span class='line'>
+</span><span class='line'>Success!
+</span><span class='line'>
+</span><span class='line'>$ git commit -m "Add cute octocat story"
+</span><span class='line'> 
+</span><span class='line'>
+</span><span class='line'>[master (root-commit) 20b5ccd] Add cute octocat story
+</span><span class='line'> 1 file changed, 1 insertion(+)
+</span><span class='line'> create mode 100644 octocat.txt
+</span><span class='line'>
+</span><span class='line'>Success!
+</span><span class='line'>
+</span><span class='line'>$ git add '*.txt'</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Hannover Principles and Sustainability]]></title>

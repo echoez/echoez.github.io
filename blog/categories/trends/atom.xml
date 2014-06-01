@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Trends | Mike and Code]]></title>
+  <link href="http://echoez.github.io/blog/categories/trends/atom.xml" rel="self"/>
+  <link href="http://echoez.github.io/"/>
+  <updated>2014-06-01T13:46:03-04:00</updated>
+  <id>http://echoez.github.io/</id>
+  <author>
+    <name><![CDATA[Michael Cadet]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to make a Parallax Website]]></title>
+    <link href="http://echoez.github.io/blog/2014/06/01/parallax-test-site/"/>
+    <updated>2014-06-01T13:37:50-04:00</updated>
+    <id>http://echoez.github.io/blog/2014/06/01/parallax-test-site</id>
+    <content type="html"><![CDATA[<p>Last night I created a quick parallax website using <a href="https://www.youtube.com/watch?v=HeUZngrgR6A">this</a> tutorial I found online. All you need is about 1 hour, a little patience and basic knowledge off HTML5 and SASS.</p>
+]]></content>
+  </entry>
+  
+</feed>
